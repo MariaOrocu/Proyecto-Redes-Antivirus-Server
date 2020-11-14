@@ -33,6 +33,6 @@ Concluido todo esto, se tiene lo necesario para ejecutar el proyecto.
 
 ## Referencias
 
-yoritz(2016) [Tkinter] How to update the gui in a loop without blocking the gui mainloop.Python-Forum. Recuperado de:https://python-forum.io/Thread-Tkinter-How-to-update-the-gui-in-a-loop-without-blocking-the-gui-mainloop  
+Yoritz(2016) [Tkinter] How to update the gui in a loop without blocking the gui mainloop.Python-Forum. Recuperado de:https://python-forum.io/Thread-Tkinter-How-to-update-the-gui-in-a-loop-without-blocking-the-gui-mainloop  
 
-Varun(2018)Python : How to get list of files in directory and sub directories.ThisPointer.com.Recuperado de:https://thispointer.com/python-how-to-get-list-of-files-in-directory-and-sub-directories/
+Varun(2018).Python : How to get list of files in directory and sub directories.ThisPointer.com.Recuperado de:https://thispointer.com/python-how-to-get-list-of-files-in-directory-and-sub-directories/
