@@ -52,7 +52,7 @@ def todos_usuarios():
     for x in salida:
         lista.append(x[1])
     return lista
-mostrar_archivos():
+def mostrar_archivos():
     bd=pymysql.connect(
         host=_mysql_server,
         user=_mysql_user,
@@ -157,17 +157,17 @@ class Application(tkinter.Frame):
         # Router
         self.button1 = tkinter.Button(self, command=mostrar_archivos)
         self.listbox = tkinter.Listbox(self)
-        self.listbox2 = tkinter.Listbox(self)
+        self.listbox1 = tkinter.Listbox(self)
         self.label=tkinter.Label(self, text="Eliga un usuario para ver sus archivos con virus")
         self.combo=ttk.Combobox(self, state="readonly")
-        self.combo.set("Elige una opcion")
+        self.combo.set("Elige una opcion para ver sus archivos")
         self.combo["values"]=todos_usuarios()
         self.button1["text"] = "Router"
         self.button1["fg"] = "white"
         self.button1.grid(row=0, column=5, rowspan=1, columnspan=2)
         self.label.grid(row=0, column=15, rowspan=1, columnspan=2)
         self.listbox.grid(row=1, column=5, rowspan=1, columnspan=2)
-        self.listbox1.grid(row=2, column=5, rowspan=1, columnspan=2)
+        self.listbox1.grid(row=2, column=15, rowspan=1, columnspan=2)
         self.combo.grid(row=1, column=15, rowspan=1, columnspan=2)
     def update_button1(self):
         # Ping
